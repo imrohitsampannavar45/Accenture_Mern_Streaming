@@ -19,3 +19,5 @@ HTML - Hyper Text Markup Language
  - Attributes - provides some additional info 
     - img - src, alt ---- a - href , input - type, name, id, placeholder
   - Extension - filename.html
+
+  Create a HTML page - heading, paragraph, img, table, form  
