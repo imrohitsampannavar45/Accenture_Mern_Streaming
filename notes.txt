@@ -82,4 +82,21 @@ Example - 1 ATM  - Withdraw - Screen - Enter Money - Continue - Money
 
 MVC  - Model , View , Controller
 
-Model  - 
+Model  - Data 
+Controller - Intermediary - Flow between Model and View
+View - Presentation layer - UI 
+
+
+
+Framework - Provides Super powers to HTML CSS JS - Web Application 
+        pre Defined Features
+        Makes Programming Faster
+        Allows Developers to write code easily and Faster
+        Backbone - creation of web Application
+
+
+        Angular   - Create Frontend of Web Application
+        Reactjs    - Create Frontend of Web Application
+
+        
+
