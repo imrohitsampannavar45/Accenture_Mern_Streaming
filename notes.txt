@@ -115,8 +115,75 @@ IDE - Integrated Development Enviornment  -  Webstorm, sublime text , VS code, P
 
 
 Notepad, Word document , PPT
+=======================================================================
+
+Github 
+developer A - login page
+Developer B - Multi factor authentication 
+Deceloper c - Home page 
+Developer D - Support Page 
+Developer E - About us page
 
 
+Source Code Management - Version Control Management System 
+ - track the changes in the source code
+ - collaborate  - Allow Multiple Developer to work together
+ - Small to large projects efficiently 
 
 
+ Basic Commands
 
+ Developer A - Login Page  - A Local Branch
+
+ git status - track the changes in existing / new files
+
+ git add - Add the files
+ git commit - m "login page"
+
+ git pull
+
+ git merge - merge the code that we pulled 
+ 
+
+ git push 
+=======================================================================
+
+
+npm - Node Package manager - Manages all the package and Libraries
+
+npm install <package name> @version 
+
+npm install  <packagename> -g
+
+npm ls - list of package 
+
+npm search packagename 
+
+npm uninstall packagename 
+
+npm update packagename 
+
+=========================================================================================================
+
+
+Steps involved from Source code to deployment - Server 
+
+- Project Setup 
+- Development
+- Unit Testing 
+- Code Review 
+- Compile Source Code to Binary code
+- Package the binary Code
+- Deploy into the Production Server
+- Run Tests
+
+- Build tools - Programs - Automate the process of execution of Application from source code to Development
+
+
+- Webpack - Module Bundler - html,css,js
+
+- Grunt - JS Task runners - Minification, linting, optimisation
+
+- Gulp - Task Runner 
+
+One html - image, css 
