@@ -1,0 +1,21 @@
+
+
+
+
+
+
+
+Web site  - Collection of Web Pages
+Webpage  - A document that we render on the browser
+
+
+Building blocks of UI/ Frontend - HTML, CSS and JS
+
+HTML - Hyper Text Markup Language 
+    - Create / Describe the structure of a web Pages
+    - HTML Tags and Elements 
+    - head, table, form, anchor, audio, video,p, h1 to h6, img 
+    - <h1> Element</h1>
+ - Attributes - provides some additional info 
+    - img - src, alt ---- a - href , input - type, name, id, placeholder
+  - Extension - filename.html
