@@ -100,7 +100,23 @@ Framework - Provides Super powers to HTML CSS JS - Web Application
         Nodejs   - Run time Enviornment - JS files outside the browser - Nodejs Team - C / C++
         Ember JS -  JavaScript - Ember core Team 
 
+===============================================================================================================
 
-        
+
+IDE - Integrated Development Enviornment  -  Webstorm, sublime text , VS code, PHP 
+
+- Organise 
+- Debug
+- Comilation and Execution 
+- Auto Completion
+- Synatx highlighting 
+- Configuration
+- Error highlighting
+
+
+Notepad, Word document , PPT
+
+
+
 
 
