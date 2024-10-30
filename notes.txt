@@ -14,6 +14,8 @@ Webpage  - A document that we render on the browser
 
 Building blocks of UI/ Frontend - HTML, CSS and JS
 
+
+==============================================================
 HTML - Hyper Text Markup Language 
     - Create / Describe the structure of a web Pages
     - HTML Tags and Elements 
@@ -26,7 +28,7 @@ HTML - Hyper Text Markup Language
   
 Create a HTML page - heading, paragraph, img, table, form  
 
-
+=========================================================================
 CSS - Cascading StyleSheets
      - Styling the Web Page
      - Look and Feel
@@ -47,3 +49,28 @@ Combinator selectors (select elements based on a specific relationship between t
 Pseudo-class selectors (select elements based on a certain state)
 Pseudo-elements selectors (select and style a part of an element)
 Attribute selectors (select elements based on an attribute or attribute value)
+
+=============================================================
+JavaScript - Provides Functionality / Logic to the web page
+        - Adds Behaviour to the web page 
+        - Change the content dynamically 
+        - Responding to the contents
+        - JS is a synchronous single threaded language 
+                - Synchronous - Executes the code in sequence 
+                - Single - Threaded - One line at a time 
+            - JS is Case sensitive 
+            - Extension - filename.js 
+
+ AJAX- Asynchronous JavaScript and XML
+        - XMLHttpRequest object - request - server 
+        - Response - JavaScript - Displayed on to the browser
+
+button - xml object - request - server - response - JS - UI
+
+readystate -  0 - request not initialised
+              1 -  Server Connection Established
+              2 - Request Received
+              3 - Process the Request 
+              4 - Response is Ready 
+
+===========================================================================
