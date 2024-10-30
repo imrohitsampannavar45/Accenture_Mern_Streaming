@@ -184,6 +184,26 @@ Steps involved from Source code to deployment - Server
 
 - Grunt - JS Task runners - Minification, linting, optimisation
 
-- Gulp - Task Runner 
+- Gulp - Task Runner - Simpler Shorter easy to understand 
 
 One html - image, css 
+
+======================================================
+AOWP - Accenture Open Web Platforms,
+  - Set of Tools, Technologies,
+
+  Lightweight Architecture 
+  Modern Web Technologies 
+  Reference Architectures
+  Devops 
+  Responsive Design Evolved 
+
+
+
+Core Capabilities of AOWP 
+
+- Archiect 
+- Build 
+- Deliver
+
+
