@@ -74,3 +74,12 @@ readystate -  0 - request not initialised
               4 - Response is Ready 
 
 ===========================================================================
+
+Requires - 10,000 - 20,000 files - Time Consuming , Readability, Efficiency 
+
+
+Example - 1 ATM  - Withdraw - Screen - Enter Money - Continue - Money 
+
+MVC  - Model , View , Controller
+
+Model  - 
