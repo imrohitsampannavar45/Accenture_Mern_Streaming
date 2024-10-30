@@ -23,4 +23,17 @@ HTML - Hyper Text Markup Language
     - img - src, alt ---- a - href , input - type, name, id, placeholder
   - Extension - filename.html
 
-  Create a HTML page - heading, paragraph, img, table, form  
+  
+Create a HTML page - heading, paragraph, img, table, form  
+
+
+CSS - Cascading StyleSheets
+     - Styling the Web Page
+     - Look and Feel
+     - CSS Selectors - h1, p -5 - 3 para - same type of styling 
+         - id - unique 
+         - class- group Elemens - Apply Styling
+    - 3 ways 
+        - External,
+        - Internal,
+        - Inline
