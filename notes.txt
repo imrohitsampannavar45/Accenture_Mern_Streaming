@@ -95,8 +95,12 @@ Framework - Provides Super powers to HTML CSS JS - Web Application
         Backbone - creation of web Application
 
 
-        Angular   - Create Frontend of Web Application
-        Reactjs    - Create Frontend of Web Application
+        Angular   - Create Frontend of Web Application   - Google   - TypeScript
+        Reactjs    - Create Frontend of Web Application   - Facebook  - javaScript Library
+        Nodejs   - Run time Enviornment - JS files outside the browser - Nodejs Team - C / C++
+        Ember JS -  JavaScript - Ember core Team 
+
 
         
+
 
