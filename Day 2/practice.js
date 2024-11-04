@@ -80,3 +80,60 @@
 
 
 // console.log("First It will get Execute This ")
+
+
+//closuress
+
+
+
+// function Incremental(){
+//     var a = 10;
+
+//     function Increment(){
+//         setTimeout(()=>{
+//             a++;
+//             console.log(a)
+//         },1000)
+//     }
+//     return Increment
+// }
+
+// var c = Incremental()
+// c()
+// c()
+// c()
+
+
+
+// function Add() {
+//     var number = 24;
+
+//     function decrement(){
+//         number--;
+//         console.log(number)
+//     }
+//     return decrement
+// }
+
+// var value = Add()
+
+// value ()
+// value ()
+// value ()
+
+
+
+// function multiply(){
+//     var a  = 10;
+//     function newFi(){
+//         a = a * a;
+//         a++;
+//         console.log(a);
+//     }
+//     return newFi
+// }
+
+// var newFile = multiply();
+// newFile()
+// newFile()
+// newFile()
