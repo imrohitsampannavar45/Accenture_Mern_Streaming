@@ -1,0 +1,28 @@
+JavaScript
+Use Cases of JavaScript
+Give Functionality to Web Pages
+To build Dynamic Web Application
+To add Behaviour - retrives the Data
+Makes Web Page Interactive
+DOM Manipulation
+Event Handling
+
+NodeJS
+- Server run time - Executes JS files Outside the Browser
+
+Every Browser have a Default JS Engine
+- Chrome - V8
+- Firefox - Spider Monkey
+NodeJS - Copy of JS Engine - V8
+
+For Execution - Node - node filename.js
+Example : var a = 10; var b = 20; var c = a + b; console.log(c); >> 30 Answer
+Example 2 : var d = 2; var e = 3; var f = d+e; console.log(f); >> 5 is the Answer
+
+
+Functions
+Block of Code - Perform Sepcific Task
+Resuability
+Return a Value, Object, Other Function - Result
+Write less code - Redices Code Redundancy
+Achieve Modularity
