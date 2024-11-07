@@ -5,3 +5,21 @@ Use the grid system to create sections with multiple columns, e.g., two columns 
 Use tables for skills and proficiency levels, with Bootstrap progress bars for skill ratings.
 Apply typography classes to enhance text styling and readability.
 Extension: Make the profile responsive and test it on different devices to see how it adapts.
+
+Break ----
+
+2-  Assignment 
+
+Create - Hospital management system 
+
+Appointment slots - Grisd
+
+List of doctors - Available , leave 
+
+Display some info - Typographs
+
+Patient registration form
+ 
+Nav bar and carousel
+
+----------------------------
