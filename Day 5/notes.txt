@@ -23,3 +23,58 @@ Patient registration form
 Nav bar and carousel
 
 ----------------------------
+
+
+Scenario
+- 100 of buttons - Blue  Colour - 
+
+
+CSS - Class - Common  - all these buttons 
+
+- tedious Task - time consuming process - Decrease in Productivity 
+
+SASS - Syntactically Awesome Stylesheet     
+    - Extended Version of CSS
+    - Existing Features - New Features - Variables
+    Functions 
+    Arithmetic Operations
+    Color Functions
+    Looping Statement
+- Dynamic Stylesheet Language
+
+SASS - prepeocessor - Compile into CSS
+
+It has 2 types of Syntax 
+
+SASS and SCSS - Sassy CSS
+
+
+CSS------------
+h1{
+    color:blue;
+    text-align- center;
+    background-color:blue;
+}
+
+SASS --------------
+
+h1
+    color:blue;
+    text-align- center;
+    background-color:blue;
+
+SCSS ------------ Similar to CSS  - logical Statement, looping
+
+Uses of SASS
+-Simplifying 
+Code more efficiently, faster, easy to maintain
+- Own Syntax to use CSS- Superset of CSS - New Features
+- less code within less time 
+- Compatible with all the version of CSS
+
+disadvantages 
+- Each Developer should have the knowledge of using SASS
+
+
+npm install Sass -g
+
