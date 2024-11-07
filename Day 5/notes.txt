@@ -78,3 +78,70 @@ disadvantages
 
 npm install Sass -g
 
+Extension filename.scss
+
+Variables - Store the value
+
+$variableaname : value;
+
+
+command - sass scss filename css filename
+
+
+Nested Elements - Elements inside other elements
+
+<html>
+<head></head>
+<body>
+<div>
+<span></span>
+</div>
+</body>
+</html>
+
+
+
+<nav>
+<ul>
+<li>
+<a></a>
+</li>
+</ul>
+</nav>
+
+
+
+Css ----
+
+nav{
+    --stylig properties
+}
+
+nav ul{
+    ---styling properties
+}
+
+
+nav ul li{
+    -- css properties
+}
+
+nav ul li a{
+    --- css properties
+}
+
+
+SASS - 
+
+nav{
+    --- CSs Properties
+    ul{
+        -- CSs properties
+        li{
+            -- css properties
+            a{
+            --css proprties
+            }
+        }
+    }
+}
