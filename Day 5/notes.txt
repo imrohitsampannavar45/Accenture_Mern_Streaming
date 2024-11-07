@@ -1,0 +1,7 @@
+Morning Activity : Objective: Apply Bootstrap’s grid, typography, and table utilities in a structured project.
+Task: Create a one-page resume or profile with sections like "Experience," "Education," and "Skills."
+Details:
+Use the grid system to create sections with multiple columns, e.g., two columns for work experience and education.
+Use tables for skills and proficiency levels, with Bootstrap progress bars for skill ratings.
+Apply typography classes to enhance text styling and readability.
+Extension: Make the profile responsive and test it on different devices to see how it adapts.

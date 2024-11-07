@@ -1,0 +1,40 @@
+
+.bg-header {
+    background-color: #f8f9fa; /* Light gray */
+}
+.bg-experience {
+    background-color: #e9ecef; /* Slightly darker gray */
+}
+.bg-education {
+    background-color: #f8f9fa; /* Light gray */
+}
+.bg-skills {
+    background-color: #e9ecef; /* Slightly darker gray */
+}
+.progress-bar-js {
+    background-color: #ff6b6b; /* Red */
+}
+.progress-bar-react {
+    background-color: #4caf50; /* Green */
+}
+.progress-bar-node {
+    background-color: #ff9800; /* Orange */
+}
+.progress-bar-mongo {
+    background-color: #009688; /* Teal */
+}
+.progress-bar-python {
+    background-color: #3f51b5; /* Indigo */
+}
+.progress-bar-cpp {
+    background-color: #9c27b0; /* Purple */
+}
+.progress-bar-aws {
+    background-color: #795548; /* Brown */
+}
+.progress-bar-sql {
+    background-color: #2196f3; /* Blue */
+}
+.progress-bar-docker {
+    background-color: #607d8b; /* Blue Gray */
+}
