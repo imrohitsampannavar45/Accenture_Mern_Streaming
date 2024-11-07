@@ -145,3 +145,36 @@ nav{
         }
     }
 }
+
+
+
+Nested Properties ---- 
+
+
+p{
+font-size:
+font-weight:
+font-family:
+}
+
+
+text-align
+text-transform
+text-shadow
+
+background-color
+background-image
+
+
+
+sass - 
+
+
+p{
+    font:{
+        size:
+        weight:
+        family:
+
+    }
+}
