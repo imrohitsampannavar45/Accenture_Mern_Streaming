@@ -1,0 +1,48 @@
+
+@mixin blockButton($color: white){
+    border-radius: 10px;
+    display: inline-block;
+    padding: 16px 32px;
+    border: none;
+    color: $color;
+}
+
+
+@mixin headings($colors){
+    text-align: center;
+    display: inline-block;
+    padding: 16px 32px;
+    color: $colors
+}
+
+.head{
+
+   @include headings(blue)
+
+}
+.head-two{
+    @include headings(white)
+
+}
+
+@mixin paragraphs($background){
+    text-align: center;
+    background-color: $background;
+    padding: 16px 32px;
+    display: inline-block;
+    
+}
+
+
+.para{
+@include paragraphs(aqua);
+}
+
+.buttonOne{
+@include blockButton(white);
+    background-color: blue;
+}
+.buttonTwo{
+    @include blockButton();
+    background-color: red;
+}

@@ -1,0 +1,30 @@
+SCSS
+
+
+Directive - @ - preprocessor - special meaning
+Mixin - Repeatable piece of code - Style the web page 
+
+
+syntax- 
+@mixin mixinname(){
+    -----------Repeatable piece of code -------------
+}
+
+@include - Include the mixin that we have defined
+
+@include mixinname()
+
+Watch flag -- always watch for the changes in the scss file - compiles the code automatically
+command to  - sass --watch input.scss style.css
+
+Parameterised Mixin - mixins accepts parameters - use CSS values as mixin parameters
+
+@mixin mixinname($color){
+    -----use the parameter using the variable name ---
+--------------CSS --
+
+}
+
+
+
+@include mixinname(black);

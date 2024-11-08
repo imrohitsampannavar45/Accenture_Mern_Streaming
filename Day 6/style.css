@@ -1,0 +1,40 @@
+.head {
+  text-align: center;
+  display: inline-block;
+  padding: 16px 32px;
+  color: blue;
+}
+
+.head-two {
+  text-align: center;
+  display: inline-block;
+  padding: 16px 32px;
+  color: white;
+}
+
+.para {
+  text-align: center;
+  background-color: aqua;
+  padding: 16px 32px;
+  display: inline-block;
+}
+
+.buttonOne {
+  border-radius: 10px;
+  display: inline-block;
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  background-color: blue;
+}
+
+.buttonTwo {
+  border-radius: 10px;
+  display: inline-block;
+  padding: 16px 32px;
+  border: none;
+  color: white;
+  background-color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
