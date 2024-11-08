@@ -1,0 +1,21 @@
+.home {
+  background: url("/img/home.png");
+}
+
+.contact {
+  background: url("/img/contact.png");
+}
+
+.services {
+  background: url("/img/services.png");
+}
+
+.education {
+  background: url("/img/education.png");
+}
+
+.aboutus {
+  background: url("/img/aboutus.png");
+}
+
+/*# sourceMappingURL=style.css.map */

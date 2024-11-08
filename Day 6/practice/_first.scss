@@ -1,0 +1,10 @@
+
+@mixin blockButton($color: white){
+    border-radius: 10px;
+    display: inline-block;
+    padding: 16px 32px;
+    border: none;
+    color: black;
+    background-color: $color;
+}
+

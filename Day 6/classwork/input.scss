@@ -1,3 +1,6 @@
+@import "variables";
+
+
 
 // @mixin blockButton($color: white){
 //     border-radius: 10px;
@@ -231,3 +234,43 @@
 //     background-color: skyblue;
 //     height: 10px;
 // }
+
+
+// @for $i from 1 to 9{
+//     .a-#{$i}{
+//         height: 50px;
+//         background-color: darken($color: yellow, $amount: 5 * $i);
+//         width: (100px * $i);
+//     }
+// }
+
+// // @for $i from 1 to 13{
+// //     .b-#{$i}{
+// //         height: (25px * $i);
+// //         width: (25px * $i);
+// //         background-color: darken($color: red, $amount: 5 * $i);
+// //     }
+// }
+
+// $i:1 ;
+// @while $i<=13{
+// .b-#{$i}{
+//     background-color: darken($color: yellow, $amount: 5 * $i );
+//     height: 25px * $i;
+//     width: 25px * $i;
+// }
+//      $i: $i + 1;
+// }
+
+// body{
+//     background-color: $mytext;
+// }
+
+$menu : (home, contact, services, education,aboutus);
+
+
+@each $value in $menu{
+    .#{$value}{
+        background: url("/img/#{$value}.png");
+    }
+}

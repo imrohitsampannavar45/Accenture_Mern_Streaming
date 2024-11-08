@@ -1,0 +1,22 @@
+@import "first";
+
+
+
+
+.btn{
+    @include blockButton(blue)
+}
+
+
+
+
+
+
+// $headings : (first, second, third , fourth, fifth);
+
+// @each $value in $headings{
+//     .#{$value}{
+//         background-color: yellow;
+//         background: url("/img/#{$value}.jpg");
+//     }
+// }

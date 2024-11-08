@@ -129,3 +129,67 @@ Instructions:
 Define a base button style with properties like padding, border, and font-size.
 Use @extend to create .btn-primary, .btn-secondary, and .btn-success classes with different background colors.
 Extension: Add a hover style to the base button that each variant inherits. This teaches them how extensions work with pseudo-classes.
+
+
+===================================================================================================================================
+
+Looping Statements
+
+a-1{
+    width:10%;
+}
+
+a-2{
+    width:20%;
+}
+a-3{
+    width:30%;
+}
+
+Looping Statement - for, while
+strng interpolation - #{$varname}
+
+@for $i from 1 to 8{
+    .a-#{$i}{
+        ---css properties--------
+    }
+}
+
+
+
+@while condition{
+
+
+}
+
+===================================================
+
+
+images folder - 
+home.png 
+contact.png
+services.png
+education.png
+aboutus.png
+
+
+$menu : (home, contact, services, education,aboutus)
+
+
+in css
+.blog{
+    -- css properties
+
+.aboutus{
+    ----css Proprtie ---------
+}}
+
+
+
+for each loop 
+
+@each $value in $menu {
+    .#{$value}{
+        -----css properties
+    }
+}
