@@ -117,3 +117,15 @@ transparentize($color, $amount)	Decreases the opacity of a color. Also known as 
 scale-color($color, $red, $green, $blue, $saturation, $lightness, $alpha)	Scales one or more properties of a color proportionally.
 change-color($color, $red, $green, $blue, $hue, $saturation, $lightness, $alpha)	Changes one or more properties of a color to specific values.
 adjust-color($color, $red, $green, $blue, $hue, $saturation, $lightness, $alpha)	Adjusts one or more properties of a color relative to its current values.
+
+
+
+
+========================================================================================================================
+
+ACTIVITY Objective: Show freshers how to use @extend to create reusable styles.
+Task: Create a basic button style and then extend it to make variants for primary, secondary, and success buttons.
+Instructions:
+Define a base button style with properties like padding, border, and font-size.
+Use @extend to create .btn-primary, .btn-secondary, and .btn-success classes with different background colors.
+Extension: Add a hover style to the base button that each variant inherits. This teaches them how extensions work with pseudo-classes.

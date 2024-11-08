@@ -140,36 +140,94 @@
 // }
 
 
-.first{
-    $x: 10;
-    $y: 20;
+// .first{
+//     $x: 10;
+//     $y: 20;
 
-    @if($x >=10 and $y ==20){
-        width: 105px;
-        height: 205px;
-        background-color: orange;
-        text-align: center;
-        padding: 18px 2px;
-    }
-    @else{
-        display: none;
-        background-color: black;
-    }
+//     @if($x >=10 and $y ==20){
+//         width: 105px;
+//         height: 205px;
+//         background-color: orange;
+//         text-align: center;
+//         padding: 18px 2px;
+//     }
+//     @else{
+//         display: none;
+//         background-color: black;
+//     }
 
-}
+// }
 
-.second{
-    $a: 2;
-    $b: 4;
+// .second{
+//     $a: 2;
+//     $b: 4;
 
-    @if($a>1 and $b==4){
-    width: 100px;
-    height: 100px;
-    padding: 25px;
-    background-color: skyblue;
-    }
-    else{
-        display: none;
-        background-color: black;
-    }
-}
+//     @if($a>1 and $b==4){
+//     width: 100px;
+//     height: 100px;
+//     padding: 25px;
+//     background-color: skyblue;
+//     }
+//     else{
+//         display: none;
+//         background-color: black;
+//     }
+// }
+
+
+// .head{
+//     color: Red;
+//     text-align: center;
+//     justify-content: center;
+//     align-items: center;
+//     padding: 18px 25px;
+//     border: 5px solid orange;
+
+// }
+// .table-1{
+//     @extend .head;
+//     border: 1px solid blue;
+    
+// }
+
+
+// .first-row{
+//     background-color: pink;
+//     text-align: center;
+//     padding: 18px 25px;
+//     height: 10px;
+//     color: black
+// }
+// .second-row{
+//     @extend .first-row;
+//     margin-top: 5px;
+// }
+// .third-row{
+//     @extend .first-row;
+//     @extend .second-row
+// }
+
+
+// .btn-primary{
+//     margin-top: 15px;
+//     background-color: blue;
+//     color: white;
+//     border: black;
+
+// }
+
+// .btn-secondary{
+//     @extend .btn-primary;
+//     background-color: red;
+// }
+// .btn-secondary:hover{
+//     background-color: brown;
+// }
+// .btn-success{
+//     @extend .btn-primary;
+//     background-color: green;
+// }
+// .btn-success:hover{
+//     background-color: skyblue;
+//     height: 10px;
+// }
