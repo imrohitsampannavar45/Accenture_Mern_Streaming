@@ -28,3 +28,47 @@ Parameterised Mixin - mixins accepts parameters - use CSS values as mixin parame
 
 
 @include mixinname(black);
+
+
+
+===================================
+
+functions  - SASS 
+
+
+@function  - Used to perform minor calculations/ logic
+
+@function functionnaame(){
+    -----------------block of code -----------
+}
+
+functionname()
+
+50px = 50*2 == 100px
+
+
+
+==========================================================
+Scenario - 1
+
+<div> - developer A - Applied some css properties
+
+<div> - Developer B  - Aleready existing Css Proprties - New CSS
+
+@extend - Inherit the properties from existing CSS selector - New CSS
+
+
+.common{
+    -------CSS --------------
+
+}
+
+#common{
+    ---------Css------------
+}
+
+.newClass{
+    @extend .common;
+    @extend #common;
+
+}

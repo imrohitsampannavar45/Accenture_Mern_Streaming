@@ -1,48 +1,125 @@
 
-@mixin blockButton($color: white){
-    border-radius: 10px;
-    display: inline-block;
-    padding: 16px 32px;
-    border: none;
-    color: $color;
-}
+// @mixin blockButton($color: white){
+//     border-radius: 10px;
+//     display: inline-block;
+//     padding: 16px 32px;
+//     border: none;
+//     color: $color;
+// }
 
 
-@mixin headings($colors){
-    text-align: center;
-    display: inline-block;
-    padding: 16px 32px;
-    color: $colors
-}
+// @mixin headings($colors){
+//     text-align: center;
+//     display: inline-block;
+//     padding: 16px 32px;
+//     color: $colors
+// }
 
-.head{
+// .head{
 
-   @include headings(blue)
+//    @include headings(blue)
 
-}
-.head-two{
-    @include headings(white)
+// }
+// .head-two{
+//     @include headings(white)
 
-}
+// }
 
-@mixin paragraphs($background){
-    text-align: center;
-    background-color: $background;
-    padding: 16px 32px;
-    display: inline-block;
+// @mixin paragraphs($background){
+//     text-align: center;
+//     background-color: $background;
+//     padding: 16px 32px;
+//     display: inline-block;
     
-}
+// }
 
 
-.para{
-@include paragraphs(aqua);
-}
+// .para{
+// @include paragraphs(aqua);
+// }
 
-.buttonOne{
-@include blockButton(white);
-    background-color: blue;
-}
-.buttonTwo{
-    @include blockButton();
-    background-color: red;
-}
+// .buttonOne{
+// @include blockButton(white);
+//     background-color: blue;
+// }
+// .buttonTwo{
+//     @include blockButton();
+//     background-color: red;
+// }
+
+
+
+// .common{
+//     background-color: aqua;
+//     margin: 10px;
+//     height: twiceOfNumber(50px);
+//         width: calc(100%/2);
+// }
+
+
+// @function twice($a){
+//     @return ($a * 2);
+//     }
+    
+
+// .head-one{
+//     width: twice(50) ;
+//     height: twice(25);
+//     background-color: blue;
+
+// }
+// .head-two{
+//     width: twice(25);
+//     height: twice(15);
+//     background-color: pink;
+// }
+// .para-one{
+//     width: twice(10);
+//     height: twice(10);
+//     background-color: yellow;
+//     text-align: center;
+//     display: inline-block;
+// }
+// .button{
+//     width: twice(10);
+//     height: twice(10);
+//     background-color: orange;
+//     color: white;
+// }
+
+
+
+// .common{
+//     background-color: aqua;
+//     margin: 10px;
+//     height: twice(10) ;
+   
+// }
+
+// .left-col{
+//     @extend .common;
+// }
+
+// .right-col{
+//     @extend .common;
+// }
+
+
+// .head{
+//     align-items: center;
+//     background-color: aqua;
+//     color: red;
+//     text-align: center;
+//     margin-top: 2px;
+// }
+
+// .first-col{
+//     @extend .head;
+// }
+
+// .second-col{
+//     @extend .head;
+//     padding: 18px 2px;
+//     align-items: center;
+//     background-color: pink;
+// }

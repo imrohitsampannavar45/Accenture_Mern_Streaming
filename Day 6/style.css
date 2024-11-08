@@ -1,40 +1,15 @@
-.head {
-  text-align: center;
-  display: inline-block;
-  padding: 16px 32px;
-  color: blue;
-}
-
-.head-two {
-  text-align: center;
-  display: inline-block;
-  padding: 16px 32px;
-  color: white;
-}
-
-.para {
-  text-align: center;
+.head, .second-col, .first-col {
+  align-items: center;
   background-color: aqua;
-  padding: 16px 32px;
-  display: inline-block;
+  color: red;
+  text-align: center;
+  margin-top: 2px;
 }
 
-.buttonOne {
-  border-radius: 10px;
-  display: inline-block;
-  padding: 16px 32px;
-  border: none;
-  color: white;
-  background-color: blue;
-}
-
-.buttonTwo {
-  border-radius: 10px;
-  display: inline-block;
-  padding: 16px 32px;
-  border: none;
-  color: white;
-  background-color: red;
+.second-col {
+  padding: 18px 2px;
+  align-items: center;
+  background-color: pink;
 }
 
 /*# sourceMappingURL=style.css.map */
