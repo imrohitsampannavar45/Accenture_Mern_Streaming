@@ -1,15 +1,20 @@
-.head, .second-col, .first-col {
-  align-items: center;
-  background-color: aqua;
-  color: red;
+.first {
+  width: 105px;
+  height: 205px;
+  background-color: orange;
   text-align: center;
-  margin-top: 2px;
+  padding: 18px 2px;
 }
 
-.second-col {
-  padding: 18px 2px;
-  align-items: center;
-  background-color: pink;
+.second {
+  width: 100px;
+  height: 100px;
+  padding: 25px;
+  background-color: skyblue;
+}
+.second else {
+  display: none;
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

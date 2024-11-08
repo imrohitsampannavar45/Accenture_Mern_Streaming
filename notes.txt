@@ -1,7 +1,9 @@
 SCSS
 
+Directives
 
-Directive - @ - preprocessor - special meaning
+
+ @ - preprocessor - special meaning
 Mixin - Repeatable piece of code - Style the web page 
 
 
@@ -72,3 +74,46 @@ Scenario - 1
     @extend #common;
 
 }
+
+ =================================================================================================
+
+
+
+ Control Directives
+
+ if(condition){
+    ---------CSS --------
+ }@else{
+    -----------CSS ---------- 
+ }
+
+
+
+ ============================================
+ Color Manipulation Functions 
+
+ black  inverse - white 
+ --> invert(white)  = black
+ darken(color, amount)
+ lighten
+ saturate
+ opacity
+ transparent 
+
+
+Function	Description
+darken($color, $amount)	Makes a color darker by a specified amount.
+lighten($color, $amount)	Makes a color lighter by a specified amount.
+saturate($color, $amount)	Increases the saturation of a color by a specified amount.
+desaturate($color, $amount)	Decreases the saturation of a color by a specified amount.
+adjust-hue($color, $degrees)	Changes the hue of a color by a specified number of degrees.
+mix($color1, $color2, [$weight])	Mixes two colors together in a weighted average.
+invert($color)	Inverts a color.
+grayscale($color)	Converts a color to grayscale.
+complement($color)	Returns the complement of a color.
+rgba($color, $alpha)	Changes the alpha (transparency) channel of a color.
+opacify($color, $amount)	Increases the opacity of a color. Also known as fade-in.
+transparentize($color, $amount)	Decreases the opacity of a color. Also known as fade-out.
+scale-color($color, $red, $green, $blue, $saturation, $lightness, $alpha)	Scales one or more properties of a color proportionally.
+change-color($color, $red, $green, $blue, $hue, $saturation, $lightness, $alpha)	Changes one or more properties of a color to specific values.
+adjust-color($color, $red, $green, $blue, $hue, $saturation, $lightness, $alpha)	Adjusts one or more properties of a color relative to its current values.

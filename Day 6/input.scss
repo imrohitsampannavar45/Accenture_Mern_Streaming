@@ -123,3 +123,53 @@
 //     align-items: center;
 //     background-color: pink;
 // }
+
+
+// body{
+//     $a: 4;
+//     $b: 5;
+
+
+// @if($a > 3 and $b == 6){
+//     background-color: pink;
+// } @else{
+//         // background-color: invert($color: yellow);
+//         // background-color: complement($color: pink);
+//         background-color: lighten($color: pink, $amount: 0%);
+// }
+// }
+
+
+.first{
+    $x: 10;
+    $y: 20;
+
+    @if($x >=10 and $y ==20){
+        width: 105px;
+        height: 205px;
+        background-color: orange;
+        text-align: center;
+        padding: 18px 2px;
+    }
+    @else{
+        display: none;
+        background-color: black;
+    }
+
+}
+
+.second{
+    $a: 2;
+    $b: 4;
+
+    @if($a>1 and $b==4){
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    background-color: skyblue;
+    }
+    else{
+        display: none;
+        background-color: black;
+    }
+}
