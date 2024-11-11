@@ -13,3 +13,17 @@ npm install packagename -D   // install package in dev dependency
 npm uninstall -D <axios>  // for unintsalling package in dev dependency 
 
 using package.json we can install all the project dependency in our project 
+
+
+examples - 
+
+npm init
+ 
+npm i bootstrap
+ 
+npm i axios -D  
+ 
+npm i bootstrap --save-dev
+ 
+npm install
+ 
