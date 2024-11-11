@@ -1,0 +1,15 @@
+node -v
+npm -v
+
+npm init
+npm list -g 
+npm list 
+
+npm i package name   // for installing
+npm uninstall package name  // for uninstalling
+
+npm install packagename -D   // install package in dev dependency 
+ 
+npm uninstall -D <axios>  // for unintsalling package in dev dependency 
+
+
