@@ -102,3 +102,10 @@ ES6 Concepts
 
 Data Types
 Scopes - var let const
+
+
+
+
+
+
+es6 let const and map scopes arrow functions npm 
