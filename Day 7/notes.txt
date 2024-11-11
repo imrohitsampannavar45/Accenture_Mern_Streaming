@@ -100,3 +100,5 @@ version   - major.minor.patch
 ES6 Concepts
 
 
+Data Types
+Scopes - var let const
