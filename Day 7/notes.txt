@@ -1,9 +1,9 @@
-node -v
-npm -v
+node -v - node version
+npm -v  - npm verison 
 
-npm init
-npm list -g 
-npm list 
+npm init  -  package registry 
+npm list -g  - list all the packages of the project
+npm list  - list all the dependencies 
 
 npm i package name   // for installing
 npm uninstall package name  // for uninstalling
@@ -12,4 +12,4 @@ npm install packagename -D   // install package in dev dependency
  
 npm uninstall -D <axios>  // for unintsalling package in dev dependency 
 
-
+using package.json we can install all the project dependency in our project 
