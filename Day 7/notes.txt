@@ -86,3 +86,17 @@ scoped
 2. Private Package - the priavte package can be used in organisation 
 
 1. user scoped and organisation scoped 
+
+
+
+package.lock.json - comments
+version   - major.minor.patch
+^ - minor and patch  example 5.3.0 means above or equal to that 
+~ - it check for latest update of the patch 
+
+-==============================================================================
+
+
+ES6 Concepts
+
+
