@@ -6,15 +6,13 @@ ACTIVITY - 1
 
 
 
-Function With Parameters 
-NaN
-
-
 Function with Parameters
 Optional Chaining
-Spread Operator 
 Short Circuits
 Array 
 Object 
 Class 
 Array Destructuring
+object Destructuring
+Spread Operator 
+ternary operators
