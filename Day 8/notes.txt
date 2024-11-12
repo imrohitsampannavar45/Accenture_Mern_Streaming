@@ -3,3 +3,8 @@ ACTIVITY - 1
 // Delete all users contains with 'sa'
 // update the user virat to 'virat kholi'
 // display all users in the console with 'mr/ms'
+
+
+
+Function With Parameters 
+NaN

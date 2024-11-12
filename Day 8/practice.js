@@ -20,3 +20,28 @@ let modification_players = players.map(player => {
 let change_Name = players.map(player => 'Mr/Ms ' + player);
 console.log(change_Name)
 
+
+
+function fullname(firstname, lastname, middlename= "-"){
+    return firstname+ " "+middlename+" "+lastname
+}
+console.log(fullname("Sachin", "Tendulkar"))
+console.log(fullname("Rohit","Vittal", "Sampannavar"))
+
+
+
+
+// 2)
+
+function mul(n2, ...nums) {
+    let mul = n2;  
+    nums.forEach(num => {
+        mul = mul*num;  
+    });
+    console.log(mul);
+}
+
+mul(10, 20);          
+mul(10, 20, 30, 40);  
+mul(10, 30);          
+
