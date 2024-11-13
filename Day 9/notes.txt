@@ -1,0 +1,66 @@
+npm i -g jshint  //JS Hint commands
+jshint jshintdemo.js --config cofig.json
+
+
+// npm i -g jscs   //JSCS commands
+ jscs .\jshintdemo.js --preset=airbnb --fix
+jscs .\jshintdemo.js --preset=airbnb
+
+
+
+jshint_config.jshintrc // filename
+
+{
+    "undef":true,
+    "unused":true,
+     "strict":false
+}
+
+config.json // filename
+ 
+{
+    "undef":true,
+    "unused":true,
+     "strict":false
+}
+
+
+
+
+
+
+topics covered
+
+
+pure modification 
+impure mpdification 
+async js 
+promises 
+DOM Manipulation
+setinterval and settimeout function
+fetch function jsonplaceholder
+jshint, jscs
+webpack
+===========================
+
+
+steps to create  webpack
+
+// 1. npm install webpack
+// create src folder
+
+create index.js and arithmetic.js
+add code in arithmeric.js and export to index.js
+create a webpack.config.js in root directory 
+and give entry file name i.e., index.js
+and output in main.js
+
+
+// execute  => webpack for bundling 
+
+and the output will be saved in dist/main.js
+and include the main.js in html code 
+
+now run in the browser and go to console to check th e value 
+
+live server install in the vs code plugin 
