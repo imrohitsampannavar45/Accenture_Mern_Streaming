@@ -41,6 +41,7 @@ setinterval and settimeout function
 fetch function jsonplaceholder
 jshint, jscs
 webpack
+jenkins
 ===========================
 
 
