@@ -56,7 +56,7 @@ and give entry file name i.e., index.js
 and output in main.js
 
 
-// execute  => webpack for bundling 
+// execute  =>npm install -g webpack-cli and then  =>  webpack 
 
 and the output will be saved in dist/main.js
 and include the main.js in html code 
