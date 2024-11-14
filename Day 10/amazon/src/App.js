@@ -7,6 +7,7 @@ import MyDetails from "./Props_example";
 import State_Demo from "./State_Demo";
 import Constructor_Demo from "./Contructor_Demo";
 import GetDerivedState from "./GetDerivedState";
+import ShouldComponentUpdates from "./ShouldComUpdate";
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
       <Constructor_Demo />
       <hr />
       <GetDerivedState fcolor="Blue" />
+      <hr />
+      <ShouldComponentUpdates />
     </div>
   );
 };
