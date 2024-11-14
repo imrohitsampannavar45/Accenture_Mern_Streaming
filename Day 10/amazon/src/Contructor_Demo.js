@@ -9,7 +9,7 @@ class Constructor_Demo extends React.Component {
   render() {
     return (
       <>
-        <h1> Contructor Demo</h1>
+        <h1> Contructor and Render Method Demo</h1>
         <h2>Favouriate Color is {this.state.favouriateColor} </h2>
       </>
     );

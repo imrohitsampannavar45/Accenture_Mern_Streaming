@@ -6,6 +6,7 @@ import Props_Demo from "./props_Demo";
 import MyDetails from "./Props_example";
 import State_Demo from "./State_Demo";
 import Constructor_Demo from "./Contructor_Demo";
+import GetDerivedState from "./GetDerivedState";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
       <State_Demo />
       <hr />
       <Constructor_Demo />
+      <hr />
+      <GetDerivedState fcolor="Blue" />
     </div>
   );
 };
