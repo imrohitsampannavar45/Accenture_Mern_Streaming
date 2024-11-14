@@ -1,0 +1,19 @@
+.heading{
+    background-color: chartreuse;
+    text-shadow: 1px 1px blue;
+}
+.headings{
+    background-color: chocolate;
+    color: white;
+}
+
+.list{
+    border: 5px solid black;
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px green ;
+    color: brown;
+}
