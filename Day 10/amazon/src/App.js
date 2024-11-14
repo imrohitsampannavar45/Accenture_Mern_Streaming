@@ -10,6 +10,7 @@ import GetDerivedState from "./GetDerivedState";
 import ShouldComponentUpdates from "./ShouldComUpdate";
 import GetSnapShot from "./GetSnapShot";
 import Child from "./Child";
+import WillUnMount from "./ComponentWillMount";
 
 const App = () => {
   return (
@@ -34,6 +35,8 @@ const App = () => {
       <GetSnapShot />
       <hr />
       <Child />
+      <hr />
+      <WillUnMount />
     </div>
   );
 };
