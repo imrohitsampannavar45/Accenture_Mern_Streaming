@@ -1,0 +1,9 @@
+react basics
+virtual Dom
+JSX
+components 
+props in functional components -  not changes
+state in components in class component - changes
+ life cycle methods
+ available methods in lifecycle in react 
+ constructors 
