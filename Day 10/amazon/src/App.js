@@ -9,6 +9,7 @@ import Constructor_Demo from "./Contructor_Demo";
 import GetDerivedState from "./GetDerivedState";
 import ShouldComponentUpdates from "./ShouldComUpdate";
 import GetSnapShot from "./GetSnapShot";
+import Child from "./Child";
 
 const App = () => {
   return (
@@ -31,6 +32,8 @@ const App = () => {
       <hr />
       <h1>Get Snapshot Component Did Mount ?</h1>
       <GetSnapShot />
+      <hr />
+      <Child />
     </div>
   );
 };
