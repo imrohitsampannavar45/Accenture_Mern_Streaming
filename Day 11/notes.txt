@@ -2,3 +2,4 @@ Activity on Student
 Conditional Rendering
 List and key iteration 
 target.value [input] and also Onchange
+data binding
