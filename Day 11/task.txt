@@ -1,0 +1,10 @@
+Create Student component
+Display roll number and first name of a student using props of a component
+Display marks of a student using state of a component
+Create a button which should increase the marks of a student by 5
+Stop the increament of a marks, once the marks reach to 100 and also show the alert with the message “student marks cannot be more than 100”
+ 
+has context menu
+
+
+has context menu

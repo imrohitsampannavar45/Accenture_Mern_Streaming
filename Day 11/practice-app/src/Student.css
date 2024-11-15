@@ -1,0 +1,11 @@
+.box{
+    border-radius: 20px;
+    border: 1px solid green;
+    padding:20px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px wheat;
+    max-width: 250px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
