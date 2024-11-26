@@ -42,3 +42,8 @@ Module :
 ```sh
 example : require( 'name of the Module') => equivalnet import statement
 ```
+
+HTTP Module
+```sh
+create server API
+server : ip address , end point , 
