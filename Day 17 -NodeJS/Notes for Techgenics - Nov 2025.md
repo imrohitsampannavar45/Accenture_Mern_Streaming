@@ -80,3 +80,21 @@ is a stateless protocol
 2. Stateful 
 3. Helping us to create Server
 4. Routing Effectively 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+serving static file:
+==============================================================================
