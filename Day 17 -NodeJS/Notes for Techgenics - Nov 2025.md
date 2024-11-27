@@ -96,5 +96,7 @@ is a stateless protocol
 
 
 
-serving static file:
+Serving a Static file:
 ==============================================================================
+
+loading the exact file using an end Point
