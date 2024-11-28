@@ -100,3 +100,34 @@ Serving a Static file:
 ==============================================================================
 
 loading the exact file using an end Point
+
+
+Task - Day 19 
+
+```sh
+Task: Create a Simple Movie Collection Application
+Project Setup
+Initialize the Project:
+Create a new directory for the project.
+Initialize a new Node.js project.
+Install the Express framework.
+Create the Server:
+Create an Express server that listens on a specified port.
+Implement Routes:
+Create a GET route to list all movies.
+Create a GET route to retrieve details of a specific movie using a route parameter.
+Create a POST route to add a new movie.
+Create a GET route to search for movies by title using a query string.
+```
+
+Promises 
+===============================================================================
+Async Calls
+Why?
+
+
+
+
+Database:
+-----------------------
+MongoDB:

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Collection App</title>
+</head>
+<body>
+  <h1>Movie Collection App</h1>
+
+  <div>
+    <h2>List All Movies</h2>
+    <button onclick="listMovies()">List Movies</button>
+    <div id="movie-list"></div>
+  </div>
+
+  <div>
+    <h2>Get Movie Details</h2>
+    <input type="text" id="movie-title" placeholder="Enter movie title">
+    <button onclick="getMovieDetails()">Get Details</button>
+    <div id="movie-details"></div>
+  </div>
+
+  <div>
+    <h2>Add New Movie</h2>
+    <input type="text" id="new-movie-title" placeholder="Title">
+    <input type="text" id="new-movie-director" placeholder="Director">
+    <input type="number" id="new-movie-year" placeholder="Year">
+    <button onclick="addMovie()">Add Movie</button>
+  </div>
+
+  <div>
+    <h2>Search Movies by Title</h2>
+    <input type="text" id="search-title" placeholder="Enter title to search">
+    <button onclick="searchMovies()">Search</button>
+    <div id="movie-search-results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
