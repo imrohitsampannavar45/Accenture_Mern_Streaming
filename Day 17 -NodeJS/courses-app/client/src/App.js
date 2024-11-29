@@ -20,16 +20,26 @@ function App() {
   return (
     <div className="App">
       <h1>Courses</h1>
-      <ul>
-        {courses.map((course) => (
-          <li key={course._id}>
-            <h1>Course ID : {course.ccode}</h1>
-            <h2>Course Name : {course.cname}</h2>
-            <h3>Course Fees : {course.cfees} </h3>
-            <p>Student Name :  {course.sname}  - Enrolled </p>
-          </li>
-        ))}
-      </ul>
+      <table border="2" style={{ width: '100%', borderCollapse: 'collapse' }}>
+        <thead>
+          <tr>
+            <th>Course ID</th>
+            <th>Course Name</th>
+            <th>Course Fees</th>
+            <th>Student Name</th>
+          </tr>
+        </thead>
+        <tbody>
+          {courses.map((course) => (
+            <tr key={course._id}>
+              <td>{course.ccode}</td>
+              <td>{course.cname}</td>
+              <td>{course.cfees}</td>
+              <td>{course.sname}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
     </div>
   );
 }
