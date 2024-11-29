@@ -42,27 +42,6 @@ blogserver.post("/insertBlog", (req, res) => {
     let blogCategory = req.body.txtCategory;
     res.send(`Your blog title ${blogTitle} is submitted`);
 });
-blogserver.post("/login", (req, res) => {
-    let id = req.body.id;
-    let pass = req.body.pass;
-    console.log(id, pass);
-
-    if (!id || !pass) {
-        return res.status(400).send("ID and Password are required.");
-    }
-
-    // Insert the received data into the 'users' collection
-    let userDoc = { id: parseInt(id), pass: pass };
-
-    db.collection("users").insertOne(userDoc)
-        .then(result => {
-            res.send("User data saved and logged in successfully");
-        })
-        .catch(err => {
-            console.error("Error during login and saving data", err);
-            res.status(500).send("Error during login and saving data");
-        });
-});
 
 // Start the server
-blogserver.listen(7002, () => console.log(`Server is running on port `));
+blogserver.listen(3000, () => console.log(`Server is running on port `));
