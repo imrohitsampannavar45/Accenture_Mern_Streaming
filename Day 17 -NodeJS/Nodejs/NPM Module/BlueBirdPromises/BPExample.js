@@ -1,0 +1,6 @@
+let promise = require('bluebird')
+let fs = require('fs')
+let readFilePromise = promise.promisify(fs.readFile)
+readFilePromise("courses.json")
+    .then((buffer) => { console.log(buffer.toString()) })
+    .catch((err) => { console.log(err) })

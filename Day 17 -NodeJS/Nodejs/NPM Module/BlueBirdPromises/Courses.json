@@ -1,0 +1,22 @@
+[
+    {
+        "ccode": 1001,
+        "cname": "Java",
+        "cfees": 50000
+    },
+    {
+        "ccode": 1002,
+        "cname": "Dot NET",
+        "cfees": 50000
+    },
+    {
+        "ccode": 1003,
+        "cname": "Node Js",
+        "cfees": 55000
+    },
+    {
+        "ccode": 1004,
+        "cname": "PHP",
+        "cfees": 40000
+    }
+]
