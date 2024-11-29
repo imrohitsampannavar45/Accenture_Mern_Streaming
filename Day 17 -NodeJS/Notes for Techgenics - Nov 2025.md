@@ -131,3 +131,19 @@ Why?
 Database:
 -----------------------
 MongoDB:
+
+
+Mongoose :
+----------------------------
+A module in Nodejs
+help us in connecting to db and perform db operation
+Mongoose is not a db
+
+
+
+
+Async and Await 
+==================================================================
+async call only 
+await -> async
+
