@@ -1,0 +1,40 @@
+.todo {
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  max-width: 390px;
+  box-shadow: 5px 5px 5px black;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+
+
+
+.heading {
+  color: red;
+}
+
+.list-hover {
+  color: blue;
+}
+
+
+.list-hover li:hover {
+  color: fuchsia;
+  font-size: 20px;
+  font-weight: 800;
+
+}
+
+.input-tag {
+  background-color: white;
+  width: 200px;
+  height: 20px;
+}
+
+.btn {
+  background-color: greenyellow;
+  height: 30px;
+  margin-left: 20px;
+}
