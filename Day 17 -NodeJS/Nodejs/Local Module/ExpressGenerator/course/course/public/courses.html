@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses</title>
+</head>
+<body>
+    <h1>All Courses</h1>
+    <ul id="courses-list"></ul>
+
+    <script>
+        fetch('/courses/allCourses')
+            .then(response => response.json())
+            .then(data => {
+                const coursesList = document.getElementById('courses-list');
+                data.forEach(course => {
+                    const listItem = document.createElement('li');
+                    listItem.innerText = `${course.title} - ${course.category}`;
+                    coursesList.appendChild(listItem);
+                });
+            })
+            .catch(err => {
+                console.error('Error fetching courses:', err);
+            });
+    </script>
+</body>
+</html>

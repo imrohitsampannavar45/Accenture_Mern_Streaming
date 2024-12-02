@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Course</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .form-container input, .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .form-container button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+    .form-container button:hover {
+      background-color: #45a049;
+    }
+    .alert {
+      color: red;
+      text-align: center;
+    }
+    .success {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Add New Course</h1>
+
+  <div class="form-container">
+    <form id="add-course-form">
+      <label for="title">Course Title:</label>
+      <input type="text" id="title" name="title" required>
+
+      <label for="description">Course Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="duration">Course Duration:</label>
+      <input type="text" id="duration" name="duration" required>
+
+      <button type="submit">Add Course</button>
+    </form>
+
+    <p id="response-message"></p>
+  </div>
+
+  <script>
+    document.getElementById('add-course-form').addEventListener('submit', async function (e) {
+      e.preventDefault();
+  
+      const title = document.getElementById('title').value;
+      const description = document.getElementById('description').value;
+      const duration = document.getElementById('duration').value;
+  
+      const courseData = {
+        title,
+        description,
+        duration,
+      };
+  
+      try {
+        const response = await fetch('http://localhost:3000/courses/addCourse', {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(courseData),
+        });
+  
+        const data = await response.json();  // Parse the JSON response
+        const responseMessage = document.getElementById('response-message');
+  
+        if (response.ok) {
+          responseMessage.classList.remove('alert');
+          responseMessage.classList.add('success');
+          responseMessage.textContent = `Course added successfully: ${data.course.title}`;
+        } else {
+          responseMessage.classList.remove('success');
+          responseMessage.classList.add('alert');
+          responseMessage.textContent = `Error: ${data.message}`;
+        }
+      } catch (error) {
+        console.error('Error:', error);
+        const responseMessage = document.getElementById('response-message');
+        responseMessage.classList.remove('success');
+        responseMessage.classList.add('alert');
+        responseMessage.textContent = 'Something went wrong!';
+      }
+    });
+  </script>
+  
+
+</body>
+</html>

@@ -29,7 +29,7 @@ function App() {
       const response = await axios.post('http://localhost:5000/todos', { text: newTodo });
       setTodos([...todos, response.data]);
       setNewTodo('');
-      toast('🦄 New Todo Added!', {
+      toast(' New Todo Added!', {
         position: "top-right",
         autoClose: 5000,
         hideProgressBar: false,
