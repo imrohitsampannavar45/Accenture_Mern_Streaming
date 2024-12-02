@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './App.css'
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   const [todos, setTodos] = useState([]);
@@ -27,6 +29,16 @@ function App() {
       const response = await axios.post('http://localhost:5000/todos', { text: newTodo });
       setTodos([...todos, response.data]);
       setNewTodo('');
+      toast('🦄 New Todo Added!', {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark"
+      });
     } catch (error) {
       console.error('Error adding todo:', error);
     }
@@ -42,10 +54,10 @@ function App() {
           onChange={(e) => setNewTodo(e.target.value)}
           placeholder="Add a new task"
         />
+
+        <ToastContainer />
         <button className='btn' type="submit">Add</button>
       </form>
-
-
 
 
       <ul className='list-hover'>

@@ -7,13 +7,18 @@
   box-shadow: 5px 5px 5px black;
   margin-left: 500px;
   margin-top: 200px;
+
 }
-
-
 
 .heading {
   color: red;
 }
+
+.heading:hover {
+  color: red;
+  text-shadow: 2px 2px 2px black;
+}
+
 
 .list-hover {
   color: blue;
@@ -31,10 +36,4 @@
   background-color: white;
   width: 200px;
   height: 20px;
-}
-
-.btn {
-  background-color: greenyellow;
-  height: 30px;
-  margin-left: 20px;
 }
