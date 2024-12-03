@@ -281,3 +281,10 @@ Local Module
 
 Express generator:
 -------------------
+
+
+MicroServices - 
+<hr />
+```sh
+[/getDeatils, /postdetail] - to addd multiple path 
+[/basepath/*] - basepath with all subpath
