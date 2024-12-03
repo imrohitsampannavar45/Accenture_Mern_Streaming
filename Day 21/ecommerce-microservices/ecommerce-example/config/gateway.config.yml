@@ -1,0 +1,70 @@
+http:
+  port: 7070
+
+admin:
+  port: 9876
+  host: localhost
+
+apiEndpoints:
+  products:
+    host: localhost
+    paths: /products
+  orders:
+    host: localhost
+    paths: /orders
+  users:
+    host: localhost
+    paths: /users
+
+serviceEndpoints:
+  productService:
+    url: http://localhost:3005
+  orderService:
+    url: http://localhost:3006
+  userService:
+    url: http://localhost:3007
+
+policies:
+  - basic-auth
+  - cors
+  - expression
+  - key-auth
+  - log
+  - oauth2
+  - proxy
+  - rate-limit
+
+pipelines:
+  default:
+    apiEndpoints:
+      - products
+      - orders
+      - users
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: ${apiEndpoint}
+
+  productsPipeline:
+    apiEndpoints:
+      - products
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: productService
+
+  ordersPipeline:
+    apiEndpoints:
+      - orders
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: orderService
+
+  usersPipeline:
+    apiEndpoints:
+      - users
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: userService
