@@ -288,3 +288,9 @@ MicroServices -
 ```sh
 [/getDeatils, /postdetail] - to addd multiple path 
 [/basepath/*] - basepath with all subpath
+
+
+
+
+NPM Repository - uploading your own module to the repository
+repository - 
