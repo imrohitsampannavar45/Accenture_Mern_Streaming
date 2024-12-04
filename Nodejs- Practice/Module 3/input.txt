@@ -1,0 +1,79 @@
+hello Good Morning
+
+
+* The Event Emitter is a module that facilitates communication between objects in Node. Event 
+Emitter is at the core of Node asynchronous event driven architecture
+
+Many of the Node's Built in Modules inherit from EventEmitterEvent
+
+Emitter Class lies in the Events Module 
+
+Emitter objects emit named events that cause previously registered listeners to be called
+
+Emitter object basically has two main features
+* Emitting name events 
+* Registering and unregistering listener functions
+
+
+Methods 
+addListener(eventName, listener)  - adds a listener at the end of the listener array for the specified eventName
+on(eventName, listener) - Binds event specified by eventName with the event handler specified 
+once(eventName, listener) - adds a one time listener function for the event named eventName
+emit(eventName[,...args]) - Synchronously calls each of the listeners registered for the event named eventName 
+                        int the order they were registered, passing the supplied arguements to each 
+listenerCount(eventName) - Returns the Number of listeners listening to the event named eventName
+removeListener(eventName , listener) - Removes a listener from the listener array for the specified eventName 
+
+
+
+
+Streams - 
+
+Streams are objects that let read data from a source or write data to a destination in continous fashion 
+a Stream is an abstract interfcae for working with streaming data in Node.js 
+The Stream module provides a base API that makes it easy to builld objects that implement the stream interface.
+All Streams are instances of EventEmitter 
+There are four fundamental stream types within Node.js 
+
+
+Readable Stream - Stream which is used for Read Operation ex: fs.createReadStream()
+Writable Stream - Stream which is used for Write Operation  ex: fs.createWriteStream()
+Duplex Stream - Streams which can be used for both read and write operation ex:net.Socket
+Transform Stream - Duplex Streams that can modify or transforms the data as it is written and read like encryption and compression Stream
+                    Example : zlib.createDeflate()
+
+
+
+data  - indicate the new piece of stream data, referred to as chunk is availbale 
+close - indicate  that the underlying source of the stream data has been Closed
+end - Once a stream sends all of its data, it should emit a single end event 
+error - indicate  that problem occured with the data stream 
+
+
+example of readable Streams 
+HTTP Responses on the client
+HTTP requests on the server
+fs read Streams 
+zlib streams
+crypto streams
+TCP Sockets
+child process stdout and stderr
+process.stdin
+
+example for writable streams
+HTTP Requests on the client
+HTTP responses, on the server
+fs write streams 
+
+
+
+
+
+Piping the Stream  - piping a mechanism where we provide the output of one Stream as the input to another Stream.
+
+It is normally used to get data from one Stream and to pass the output of that stream to another Stream
+
+There is no limit on piping operations
+
+All the streams support a pipe operation that can be done using the pipe member of functions
+we can pipe from the readable streams to a writable stream like pipe command line operator in unix 
