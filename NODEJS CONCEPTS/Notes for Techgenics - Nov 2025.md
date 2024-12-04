@@ -294,3 +294,11 @@ MicroServices -
 
 NPM Repository - uploading your own module to the repository
 repository - 
+
+
+
+Rabbit MQ - Message broker:
+message broker 
+sends msg between producer and consumer 
+AMQP model 
+Clouds and local
