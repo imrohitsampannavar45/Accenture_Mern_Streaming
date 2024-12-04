@@ -269,36 +269,54 @@ Async & Await:
 *await-> process which would be time taking - async call
 *async-> function
  
-
-
-Local Module 
---------------------------
-* user created module 
+Local module:
+-------------
+* user created module
 * for your business specific requirement
-* reuse the functionalities or re use the code 
-* imported using - require ('file path./module_name)
-* segregate 
-
+* reuse the functionalities or re use the  code
+* imported using - require('file path./module_name')
+* segregate the code to multiple files for readability
 Express generator:
 -------------------
-
-
-MicroServices - 
-<hr />
-```sh
-[/getDeatils, /postdetail] - to addd multiple path 
+ 
+express-generator package helps to quickly create an application skeleton
+ 
+microservices:
+'[/getdetails,/postdetail]' - to add multiple path
 [/basepath/*] - basepath with all subpath
-
-
-
-
-NPM Repository - uploading your own module to the repository
-repository - 
-
-
-
-Rabbit MQ - Message broker:
-message broker 
-sends msg between producer and consumer 
-AMQP model 
-Clouds and local
+[/product/*]
+ 
+NPM Repository: uploading your own module to the repository
+repository: cloud -> center point for all the modules
+ 
+ 
+Authentication & Authorization:
+for creating the user - run your yaml file or gateway server- error free
+ 
+inventorypipeline:
+    apiEndpoints:
+      - inventoryApi
+    policies:
+      - key-auth:
+ 
+  curl -H "Authorization: apiKey 2N0vzgbZ8UWaLa3YcqH37d:16qxdZTF2H6xH3xsdHyxZX" http://localhost:7000/details
+ 
+  Rabbit MQ - Message broker:
+  --------------------------
+  Message broker
+  sends msg between producer and consumer
+  AMQP model
+  Clouds & local
+  to establish communication between services
+ 
+ 
+  Ref link:
+  ---------
+  https://mongoosejs.com/docs/queries.html
+  https://www.mongodb.com/docs/manual/tutorial/query-documents/?msockid=3e73cd0c4e37647010d4de114f65654c
+  https://nodejs.org/docs/latest/api/
+  https://www.express-gateway.io/getting-started/
+  https://www.npmjs.com/
+  https://expressjs.com/
+ 
+ 
