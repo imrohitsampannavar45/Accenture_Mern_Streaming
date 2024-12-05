@@ -1,0 +1,24 @@
+http:
+  port: 7000 
+
+apiEndpoints:
+  products:
+    path: ['/api/products', '/api/products/:id']
+    method: ["GET", "POST", "PUT", "DELETE"]  
+
+serviceEndpoints:
+  productService:
+    url:  'http://localhost:4000'  
+
+policies:
+  - proxy 
+
+pipelines:
+  default:
+    apiEndpoints:
+      - products
+    policies:
+      - proxy:
+          - action:
+              serviceEndpoint: productService
+              changeOrigin: true  
