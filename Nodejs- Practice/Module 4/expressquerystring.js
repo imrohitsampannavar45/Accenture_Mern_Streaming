@@ -14,3 +14,4 @@ app.get('/fruits', (req, res) => {
 app.listen(3000, () => {
     console.log("Server is Listening at the Port of 3000");
 })
+
